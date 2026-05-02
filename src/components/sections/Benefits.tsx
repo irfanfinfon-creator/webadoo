@@ -53,7 +53,7 @@ export function Benefits() {
             {benefits.map((benefit, index) => (
               <motion.div
                 key={benefit.title}
-                className="bg-[#1A1A1A] p-4 sm:p-5 rounded-lg border border-[#1A1A1A] hover:border-purple-500/50 transition-colors duration-300 transition-transform duration-500 hover:scale-[1.02]"
+                className="bg-zinc-900 p-4 sm:p-5 rounded-lg border border-zinc-900 hover:border-indigo-500/50 transition-colors duration-300 transition-transform duration-500 hover:scale-[1.02]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}

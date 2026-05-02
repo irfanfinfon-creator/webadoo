@@ -66,7 +66,7 @@ export function Projects() {
           transition={{ duration: 0.6 }}
         >
           <div className="flex mb-4 sm:mb-5">
-            <div className="border border-[#5d00ff]/50 text-[#5d00ff] py-1.5 px-4 rounded-lg text-sm">
+            <div className="border border-indigo-600/50 text-indigo-600 py-1.5 px-4 rounded-lg text-sm">
               Projects
             </div>
           </div>
@@ -83,7 +83,7 @@ export function Projects() {
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              className="group rounded-xl sm:rounded-2xl bg-zinc-900 border border-zinc-800 overflow-hidden hover:border-purple-500/50 transition-colors duration-300"
+              className="group rounded-xl sm:rounded-2xl bg-zinc-900 border border-zinc-800 overflow-hidden hover:border-indigo-500/50 transition-colors duration-300"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}

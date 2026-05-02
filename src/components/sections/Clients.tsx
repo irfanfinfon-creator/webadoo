@@ -54,7 +54,7 @@ export function Clients({ clients: customClients }: ClientsProps) {
                     className="h-4 sm:h-6 lg:h-6 w-auto object-contain transition-all duration-300 hover:scale-110"
                   />
                 ) : (
-                  <span className="text-lg sm:text-xl lg:text-2xl font-bold text-zinc-600 hover:text-purple-500 transition-colors duration-300">
+                  <span className="text-lg sm:text-xl lg:text-2xl font-bold text-zinc-600 hover:text-indigo-500 transition-colors duration-300">
                     {client.name}
                   </span>
                 )}

@@ -38,7 +38,7 @@ export function Header() {
               >
                 <a
                   href={link.href}
-                  className="hover:text-purple-400 transition-colors duration-200"
+                  className="hover:text-indigo-400 transition-colors duration-200"
                 >
                   {link.name}
                 </a>
@@ -70,7 +70,7 @@ export function Header() {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-lg text-white hover:text-purple-400 transition-colors"
+                        className="text-lg text-white hover:text-indigo-400 transition-colors"
                         onClick={() => setOpen(false)}
                       >
                         {link.name}

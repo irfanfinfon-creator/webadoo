@@ -17,7 +17,7 @@ export function Testimonials() {
           className="flex flex-col items-center justify-center max-w-[540px] mx-auto mb-10 sm:mb-12 lg:mb-16"
         >
           <div className="flex justify-center mb-4 sm:mb-5">
-            <div className="border border-[#5d00ff]/50 text-[#5d00ff] py-1.5 px-4 rounded-lg text-sm">
+            <div className="border border-indigo-600/50 text-indigo-600 py-1.5 px-4 rounded-lg text-sm">
               Testimonials
             </div>
           </div>

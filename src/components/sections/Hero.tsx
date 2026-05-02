@@ -26,7 +26,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] font-bold text-white tracking-tight leading-[1.1]">
-              Creating <span className="text-[#5d00ff]">Websites</span>
+              Creating <span className="text-indigo-600">Websites</span>
               <br className="hidden sm:block" />
               That is Fulfilling
             </h1>
@@ -44,7 +44,7 @@ export function Hero() {
 
           {/* CTA Button */}
           <motion.button
-            className="mt-2 sm:mt-4 px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 bg-[#5d00ff] hover:scale-105 text-white rounded-full text-sm sm:text-base transition-all duration-300 flex items-center gap-2 group"
+            className="mt-2 sm:mt-4 px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 bg-indigo-600 hover:scale-105 text-white rounded-full text-sm sm:text-base transition-all duration-300 flex items-center gap-2 group"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}

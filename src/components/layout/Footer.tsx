@@ -50,7 +50,7 @@ export function Footer() {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-zinc-400 hover:text-purple-400 transition-colors"
+                    className="text-sm text-zinc-400 hover:text-indigo-400 transition-colors"
                   >
                     {link.name}
                   </a>
@@ -70,14 +70,14 @@ export function Footer() {
             <div className="space-y-3">
               <a
                 href={`mailto:${footerLinks.contact.email}`}
-                className="flex items-center gap-2 text-sm text-zinc-400 hover:text-purple-400 transition-colors"
+                className="flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 {footerLinks.contact.email}
               </a>
               <a
                 href={`tel:${footerLinks.contact.phone}`}
-                className="flex items-center gap-2 text-sm text-zinc-400 hover:text-purple-400 transition-colors"
+                className="flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors"
               >
                 <Phone className="w-4 h-4" />
                 {footerLinks.contact.phone}

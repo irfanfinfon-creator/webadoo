@@ -43,7 +43,7 @@ export function About() {
             </div>
 
             <motion.button
-              className="mt-6 sm:mt-8 px-6 sm:px-8 py-2.5 sm:py-3 bg-[#5d00ff] hover:bg-[#5d00ff]/80 text-white rounded-full text-sm sm:text-base transition-all duration-300 flex items-center gap-2 group"
+              className="mt-6 sm:mt-8 px-6 sm:px-8 py-2.5 sm:py-3 bg-indigo-600 hover:bg-indigo-600/80 text-white rounded-full text-sm sm:text-base transition-all duration-300 flex items-center gap-2 group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
